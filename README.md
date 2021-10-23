@@ -17,10 +17,12 @@ ___
 *Your parents were not happy that you forgot to bring the bread last time; so they have decided to come with you to buy groceries this time. They 
 leave you alone to do some shopping on your own. There was no cart available so they gave you a bag instead.*
 
-Create an ArrayBag template class from scratch. This will require you to create two files: **ArrayBag.hpp** for the interface and **ArrayBag.cpp** 
-for the implementation. The purpose of the ArrayBag class is to serve as the base class of the ShoppingCart class that has been provided to you in 
-the given code; essentially, ArrayBag is meant to replace the DynamicArray of the previous project. Thus, you can test the final output of this 
-project in the same way that you tested that of your previous project. The ArrayBag class must contain the following protected members:
+Create an ```ArrayBag``` template class from scratch. This will require you to create two files: ```ArrayBag.hpp``` for the interface and ```ArrayBag.cpp``` 
+for the implementation. The purpose of the ```ArrayBag``` class is to serve as the base class of the ```ShoppingCart``` class that has been provided to you 
+in the given code; essentially, ```ArrayBag``` is meant to replace the DynamicArray of the previous project. 
+
+Thus, you can test the final output of this project in the same way that you tested that of your previous project. The ```ArrayBag``` class must contain 
+the following protected members:
 
 ```
 static const int DEFAULT_CAPACITY = 200;  // max size of items_ 
@@ -35,7 +37,7 @@ int item_count_;                   // Current count of items in bag
 int getIndexOf(const ItemType &target) const;
 ```
 
-Your ArrayBag class must contain the following public members:
+Your ```ArrayBag``` class must contain the following public members:
 
 ```
 /** 
@@ -93,7 +95,7 @@ you note - they forgot the bread! You choose not to remind them.*
 
 This is where the fun starts!
 
-Define the following operator overloads in **ArrayBag.hpp** and implement them accordingly in **ArrayBag.cpp**.
+Define the following operator overloads in ```ArrayBag.hpp``` and implement them accordingly in ```ArrayBag.cpp```.
 
 
 ```
@@ -164,7 +166,7 @@ ___
 You see that your friends’ family has also been shopping in the same grocery store. Your friend comes over to say hi, but you know all too 
 well she only cares about how much money you are spending. She is very egotistical.*
 
-Define the following operator overloads in **ShoppingCart.hpp** and implement them accordingly in **ShoppingCart.cpp**.
+Define the following operator overloads in ```ShoppingCart.hpp``` and implement them accordingly in ```ShoppingCart.cpp```.
 
 ```
 /**
